@@ -6,7 +6,7 @@ export const schemaEvent = Joi.object({
   description: Joi.string().min(3).max(20),
   eventDate: Joi.date().required(),
 
-  // organize: Joi.string().required(),
+   organize: Joi.string().required(),
 //  organize: Joi.object({
 //   someId: Joi.string().required(),
 // });

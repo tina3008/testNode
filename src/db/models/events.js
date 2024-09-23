@@ -20,7 +20,7 @@ const eventsSchema = new mongoose.Schema(
     },
 
     attendees: [
-      { type: mongoose.Schema.Types.ObjectId, ref: 'contactsSchema' },
+      { type: mongoose.Schema.Types.ObjectId, ref: 'ContactsCollection' },
     ],
   },
   {

@@ -1,4 +1,3 @@
-// import { Schema } from 'mongoose';
 import mongoose from 'mongoose';
 const contactsSchema = new mongoose.Schema(
   {
@@ -11,7 +10,7 @@ const contactsSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
-    Birsday: {
+    birsday: {
       type: Date,
       default: Date.now(),
     },
